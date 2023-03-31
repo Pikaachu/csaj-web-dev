@@ -74,7 +74,66 @@ export default function About() {
                         </p>
                     </div>
                 </div>
-            </section>   
+            </section>
+            <section className="relative py-12 overflow-hidden bg-white font-sans">
+                <span className="absolute top-0 right-0 flex flex-col items-end mt-0 -mr-16 opacity-60">
+                    <span className="container hidden w-screen h-32 max-w-xs mt-20 transform rounded-full rounded-r-none md:block md:max-w-xs lg:max-w-lg 2xl:max-w-3xl bg-blue-50"></span>
+                </span>
+
+                <span className="absolute bottom-0 left-0"> </span>
+
+                <div className="relative px-16 mx-auto max-w-7xl text-center">
+                    <h2 className="relative py-16
+                     text-4xl font-semibold text-blue-600 leading-tight lg:text-5xl">
+                        CSAJ/CSAK Board Members
+                    </h2>
+                    <div className="grid w-full grid-cols-2 gap-10 sm:grid-cols-3 lg:grid-cols-4">
+                        <Member />
+                        <Member />
+                        <Member />
+                        <Member />
+                    </div>
+                </div>
+
+                <div className="relative px-16 mx-auto max-w-7xl text-center ">
+                    <h2 className="relative  py-16
+                     text-4xl font-semibold leading-tight lg:text-5xl text-red-500">
+                        CSAN Leading Committee
+                    </h2>
+                    <div className="grid w-full grid-cols-2 gap-10 sm:grid-cols-3 lg:grid-cols-4">
+                        <Member1 />
+                        <Member1 />
+                        <Member1 />
+                        <Member1 />
+                    </div>
+                </div>
+
+                <div className="relative px-16 mx-auto max-w-7xl text-center">
+                    <h2 className="relative  py-16
+                     text-4xl font-semibold leading-tight lg:text-5xl  text-blue-600">
+                        KSAK Leading Committee
+                    </h2>
+                    <div className="grid w-full grid-cols-2 gap-10 sm:grid-cols-3 lg:grid-cols-4">
+                        <Member />
+                        <Member />
+                        <Member />
+                        <Member />
+                    </div>
+                </div>
+
+                <div className="relative px-16 mx-auto max-w-7xl text-center">
+                    <h2 className="relative  py-16
+                     text-4xl font-semibold leading-tight lg:text-5xl  text-red-500">
+                        ACSK Leading Committee
+                    </h2>
+                    <div className="grid w-full grid-cols-2 gap-10 sm:grid-cols-3 lg:grid-cols-4">
+                        <Member1 />
+                        <Member1 />
+                        <Member1 />
+                        <Member1 />
+                    </div>
+                </div>
+            </section>
         </Layout>
     );
 }

@@ -15,8 +15,8 @@ export default function Home({ allPostsData }) {
                             </h1>
 
                             <p className="font-sans text-justify text-lg">
-                                The Cambodia Students' Association in Japan (CSAJ) is a non-profit organization that aims to bring together Cambodian students studying in Japan and provide support for their academic and personal growth.
-                                Established in XXXX, the association has grown to become a prominent voice for the Cambodian student community in Japan, promoting cultural exchange and providing a platform for students to network and build connections.
+                            Cambodian Students’ Association in Japan (CSAJ) represents on behalf of the Cambodian students studying in all main regions of Japan, including Kanto, Kansai, Nagoya, Hiroshima, and Kyushu. 
+                            We aim to build a community of collective support, exchanges of ideas, knowledge and friendship among the Cambodian students in Japan for the social prosperity in general. 
                             </p>
 
                             <div className="flex md:flex-row flex-col mt-7 md:w-auto w-full md:space-y-0 space-y-5 md:space-x-2">
@@ -69,7 +69,7 @@ export default function Home({ allPostsData }) {
             </>
 
             <>
-                <section className="w-full py-24 lg:py-24 bg-white">
+                <section className="w-full py-12 lg:py-12 bg-white">
                     <div className="container px-8 mx-auto sm:px-12 lg:px-20">
                         <h1 className="mb-3 text-3xl font-bold leading-tight text-center md:text-5xl font-sans text-blue-600">Our Partners</h1>
                         <div className="grid grid-flow-col auto-col-max gap-16 py-16 mb-0 text-center lg:grid-flow-col lg:auto-col-max">
@@ -77,7 +77,33 @@ export default function Home({ allPostsData }) {
                                 <img src="/images/partners/kh-embassy.jpeg" alt="Embassy Logo" className="block object-contain h-56 lg:h-56" />
                             </div>
                         </div>
+                        <h1 className="mb-3 text-3xl font-bold leading-tight text-center md:text-5xl font-sans text-blue-600">Support Us</h1>
+                        <div className='py-6'>
+                            <p className="font-sans text-justify text-lg">
+                                The Cambodian Students’ Association of Japan (CSAJ) is an association composed entirely of Cambodians pursuing academia in Japan.
+                                As we are a nonprofit organization, we require sponsorships and donations to operate our programs and execute our activities and welcome any form of monetary support. 
+                                Your patronage will enable us to perform our roles diligently and maintain good communication with Cambodian students and foreign correspondents in order to successfully carry out our missions. 
+                                Your invaluable help will allow CSAJ to provide comfort and shelter to Cambodian students in Japan as well as to strengthen the relationship between Cambodian and Japanese and other foreign communities, providing solidarity to Cambodian students and people of the next generation.
+                            </p>
+                        </div>
+                        <h2 className="mb-3 text-xl font-bold leading-tight text-center md:text-3xl font-sans text-blue-600">Available Resources</h2>
+                        <div className='py-6 font-sans text-justify text-lg'>
+                            <p>
+                                Feature your logos and links on our website, social media platforms, as well as posters and mailing lists. Join us in major events such as charity events, job hunting seminars, educational seminars, graduation parties, Khmer New Year parties, and year end parties. Reach out to international communities in Japan through the favorable word-of-mouth of Cambodian students about your goods and services. Broaden your scope to communities abroad through our members and alumni. 
+                                Our tools include: 
+                                (1). Newsletter: 440 subscription with average readership of 200 readers as of January 2023. 
+                                (2).Social network: 17,401 Facebook followers, 3,025 Facebook group members and 50 Telegram channel subscribers as of March 2023.
+                                (3).  Cambodian students community: access to large and vibrant communities of Cambodian students in Kanto, Kansai, and Kyushu regions as well as Hiroshima and Nagoya prefectures. 
+                                (4). Cambodian students alumni: connect with a robust community of Cambodian alumni who are active and diligent professionals, academics, and officers inside and outside Japan. 
+                            </p> 
+                        </div>     
 
+                        <div className='py-6 font-sans text-justify text-lg'>
+                            <p>
+                                For information on available sponsorship packages, <a class="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline" href="mailto:csaj.info@gmail.com">please contact us!</a>
+                            </p> 
+                        </div>      
+       
                     </div>
                 </section>
             </>
@@ -87,10 +113,10 @@ export default function Home({ allPostsData }) {
 }
 
 export async function getStaticProps() {
-    const allPostsData = getSortedPostsData().slice(0, 3)
+    const allPostsData = getSortedPostsData().slice(0, 6)
     return {
         props: {
             allPostsData
         }
-    }
+    } 
 }
