@@ -76,6 +76,21 @@ export default function Home({ allPostsData }) {
                             <div className="flex items-center justify-center">
                                 <img src="/images/partners/kh-embassy.jpeg" alt="Embassy Logo" className="block object-contain h-56 lg:h-56" />
                             </div>
+                            <div className="flex items-center justify-center">
+                                <img src="/images/partners/cambodiafestival.jpg" alt="Cambodian Festival Logo" className="block object-contain h-56 lg:h-56" />
+                            </div>
+                            <div className="flex items-center justify-center">
+                                <img src="/images/partners/enjin.png" alt="Enjin Logo" className="block object-contain h-56 lg:h-56" />
+                            </div>
+                            <div className="flex items-center justify-center">
+                                <img src="/images/partners/globalcareer.jpeg" alt="Global Career Logo" className="block object-contain h-56 lg:h-56" />
+                            </div>
+                            <div className="flex items-center justify-center">
+                                <img src="/images/partners/lvs.png" alt="LVS Logo" className="block object-contain h-56 lg:h-56" />
+                            </div>
+                            <div className="flex items-center justify-center">
+                                <img src="/images/partners/sbi.png" alt="SBI Logo" className="block object-contain h-56 lg:h-56" />
+                            </div>
                         </div>
                         <h1 className="mb-3 text-3xl font-bold leading-tight text-center md:text-5xl font-sans text-blue-600">Support Us</h1>
                         <div className='py-6'>
@@ -91,11 +106,14 @@ export default function Home({ allPostsData }) {
                             <p>
                                 Feature your logos and links on our website, social media platforms, as well as posters and mailing lists. Join us in major events such as charity events, job hunting seminars, educational seminars, graduation parties, Khmer New Year parties, and year end parties. Reach out to international communities in Japan through the favorable word-of-mouth of Cambodian students about your goods and services. Broaden your scope to communities abroad through our members and alumni. 
                                 Our tools include: 
-                                (1). Newsletter: 440 subscription with average readership of 200 readers as of January 2023. 
-                                (2).Social network: 17,401 Facebook followers, 3,025 Facebook group members and 50 Telegram channel subscribers as of March 2023.
-                                (3).  Cambodian students community: access to large and vibrant communities of Cambodian students in Kanto, Kansai, and Kyushu regions as well as Hiroshima and Nagoya prefectures. 
-                                (4). Cambodian students alumni: connect with a robust community of Cambodian alumni who are active and diligent professionals, academics, and officers inside and outside Japan. 
-                            </p> 
+                                </p> 
+                            <ul class="list-inside list-decimal">
+                                <li> <b>Newsletter</b>: 440 subscription with average readership of 200 readers as of January 2023. </li> 
+                                <li> <b>Social network</b>: 17,401 Facebook followers, 3,025 Facebook group members and 50 Telegram channel subscribers as of March 2023. </li>
+                                <li> <b>Students community</b>: access to large and vibrant communities of Cambodian students in Kanto, Kansai, and Kyushu regions as well as Hiroshima and Nagoya prefectures.  </li>
+                                <li> <b>Students alumni</b>: connect with a robust community of Cambodian alumni who are active and diligent professionals, academics, and officers inside and outside Japan.  </li>
+                            
+                            </ul>
                         </div>     
 
                         <div className='py-6 font-sans text-justify text-lg'>
